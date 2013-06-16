@@ -61,14 +61,54 @@ The basic class outline is:
   * JTAG debugging
 * More advanced topics (TDB)
 
-# Links:
+## Lectures
 
-* [Class Materials Repository](http://github.com/waynegramlich/pcb_class)
-* [Class Home Page](http://gramlich.net/projects/pcb_class/index.html)
-* [KiCAD Home Page](http://www.kicad-pcb.org/)
-  * [KiCAD Documentation](http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation)
-  * [KiCAD Download Page](http://www.kicad-pcb.org/display/KICAD/Download+Kicad)
-  * [KiCAD Tutorial](http://teholabs.com/knowledge/kicad.html)
-* [SeeedStudio Home Page](http://www.seeedstudio.com/)
+* Lecture 1.  Introduction to class and surface mount PCB's.
+  * [Video Lecture 1a](http://youtu.be/nnQK5tNLf6A) --
+    http://youtu.be/nnQK5tNLf6A
+  * [Video Discussion 1a](http://youtu.be/sq9nqoJVbX0) --
+    http://youtu.be/sq9nqoJVbX0
+  * [Video Lecture 1b](http://youtu.be/r8KasOYSXJQ) --
+    http://youtu.be/r8KasOYSXJQ
+  * [Video Discussion 1b](http://youtu.be/e9vZ7QtEE6A) --
+    http://youtu.be/e9vZ7QtEE6A
+  * Homework. Download KiCAD [http://www.kicad-pcb.org/display/KICAD/Download+Kicad]
+  An alternative to the videos above is Wayne's
+  [SMT for Roboticists](http://www.youtube.com/watch?v=GeJ47UOX1hc)
+  HBRC (Home Brew Robotics Club) presentation.
+
+* Lecture 2. Finding chips and Initial Schematic Capture.
+
+## Links
+
+* [Class Materials Git Repository](http://github.com/waynegramlich/pcb_class) --
+  http://github.com/waynegramlich/pcb_class
+* [Class Home Page](http://gramlich.net/projects/pcb_class/index.html) --
+  http://gramlich.net/projects/pcb_class/index.html
+* [Class Home Page .pdf](http://gramlich.net/projects/pcb_class/README.pdf) --
+  http://gramlich.net/projects/pcb_class/README.pdf
+* [FindChips.Com](http://findchips.com/)
+  http://findchips.com/
+* [Jameco.Com](http://jameco.com/) --
+  * http://jameco.com/
+* [KiCAD Home Page](http://www.kicad-pcb.org/) --
+  http://www.kicad-pcb.org/
+  * [KiCAD Documentation](http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation) --
+    http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation
+  * [KiCAD Download Page](http://www.kicad-pcb.org/display/KICAD/Download+Kicad) --
+    http://www.kicad-pcb.org/display/KICAD/Download+Kicad
+  * [KiCAD Tutorial](http://teholabs.com/knowledge/kicad.html) --
+    http://teholabs.com/knowledge/kicad.html
+* [Mouser.Com](http://mouser.com/) --
+  http://mouser.com/
+* [OctoPart.Com](http://octopart.com/) --
+  http://octopart.com/
+* [SeeedStudio Home Page](http://www.seeedstudio.com/) --
+  http://www.seeedstudio.com/
   * [SeeedStudio PCB Service](http://www.seeedstudio.com/depot/services-c-70_71/?ref=side)
+    -- http://www.seeedstudio.com/depot/services-c-70_71/?ref=side
+* [Wayne's Nov2012 HBRC SMT Talk](http://www.youtube.com/watch?v=GeJ47UOX1hc) --
+  http://www.youtube.com/watch?v=GeJ47UOX1hc
+  * [SMT Talk Slides](http://gramlich.net/projects/hbrobotics/talks/smt/index.html) --
+    http://gramlich.net/projects/hbrobotics/talks/smt/index.html
 

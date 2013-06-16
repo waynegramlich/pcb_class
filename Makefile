@@ -19,4 +19,4 @@ clean:
 	markdown $< > $@
 
 %.pdf: %.html
-	htmldoc -f $@ $<
+	htmldoc --no-title --no-toc -f $@ $<
