@@ -63,52 +63,93 @@ The basic class outline is:
 
 ## Lectures
 
-* Lecture 1.  Introduction to class and surface mount PCB's.
-  * [Video Lecture 1a](http://youtu.be/nnQK5tNLf6A) --
-    http://youtu.be/nnQK5tNLf6A
-  * [Video Discussion 1a](http://youtu.be/sq9nqoJVbX0) --
-    http://youtu.be/sq9nqoJVbX0
-  * [Video Lecture 1b](http://youtu.be/r8KasOYSXJQ) --
-    http://youtu.be/r8KasOYSXJQ
-  * [Video Discussion 1b](http://youtu.be/e9vZ7QtEE6A) --
-    http://youtu.be/e9vZ7QtEE6A
+* Session 1.  Introduction to class and surface mount PCB's.
+  * [Lecture 1](http://youtu.be/nnQK5tNLf6A)
+    -- http://youtu.be/nnQK5tNLf6A
+    ; Introductory Material
+  * [Discussion 1](http://youtu.be/sq9nqoJVbX0)
+    -- http://youtu.be/sq9nqoJVbX0
+  * [Lecture 2](http://youtu.be/r8KasOYSXJQ)
+    -- http://youtu.be/r8KasOYSXJQ
+    ; Introductory Matirial
+  * [Discussion 2](http://youtu.be/e9vZ7QtEE6A)
+    -- http://youtu.be/e9vZ7QtEE6A
+  * [Danny's Session 1 Notes](https://docs.google.com/document/d/1DMb4D6pvlmSKxChsnne0z5LuC7Gld0QWWKAN4YXvKoI/edit?usp=sharing)
+    from the class are available.
   * Homework. Download KiCAD [http://www.kicad-pcb.org/display/KICAD/Download+Kicad]
   An alternative to the videos above is Wayne's
   [SMT for Roboticists](http://www.youtube.com/watch?v=GeJ47UOX1hc)
   HBRC (Home Brew Robotics Club) presentation.
 
-* Lecture 2. Finding chips and Initial Schematic Capture.
+* Session 2. Finding chips and Initial Schematic Capture.
+  * [Video Playlist](http://www.youtube.com/playlist?list=PLKMsjYjvN5QFPR9ERFqPuN4P1v2LBj4ki)
+    -- http://www.youtube.com/playlist?list=PLKMsjYjvN5QFPR9ERFqPuN4P1v2LBj4ki
+  * [Lecture 1a](http://youtu.be/sjvGTyjGPV8)
+    -- http://youtu.be/sjvGTyjGPV8
+  * [Lecture 1b](http://youtu.be/fAroFyO0bVE)
+    -- http://youtu.be/fAroFyO0bVE
+    ; Finding parts on the web.
+  * [Discussion 1](http://youtu.be/xN12sepG-w8)
+    -- http://youtu.be/xN12sepG-w8
+  * [Lecture 2a](http://youtu.be/vI0RpbtnBis)
+    -- http://youtu.be/vI0RpbtnBis
+  * [Lecture 2b](http://youtu.be/wv9gGwcbeF4)
+    -- http://youtu.be/wv9gGwcbeF4
+    ; Introduction to KiCAD schematic capture.
+  * [Discussion 2](http://youtu.be/dPedjUvY7oU)
+    -- http://youtu.be/dPedjUvY7oU
+  * [Danny's Session 2 Notes](https://docs.google.com/document/d/1GqWEFcGUVsEyfptQhkV_uVC4z0SMdCxRVqqwu-LNGJA/edit?usp=sharing) from the class are available.
+  * Homework: Do the following:
+    > * Finish downloading KiCad.
+    > * Download
+    >   [LPC175X\_Template](http://github.com/waynegramlich/LPC175X_Template)
+    >   from [github.com](http://github.com/).  If you are having problems
+    >   with git, go to Danny's git class on Sunday.
+    > * Fire up KiCAD the lpc175x\_template.sch schematic.
+    > * Add an LED and a resistor in series between an open processor
+    >   pin and ground.
+    > * Use [DigiKey](http://digikey.com/) to search for a surface mount
+    >   LED that is in an 0603 package.
+    > * Use both [Findchips.com](http://findchips.com/) and
+    >   [Octopart](http://octopart.com/) to search for the manufacturer part
+    >   number to check for price and availability.
 
 ## Links
 
-* [Class Materials Git Repository](http://github.com/waynegramlich/pcb_class) --
-  http://github.com/waynegramlich/pcb_class
-* [Class Home Page](http://gramlich.net/projects/pcb_class/index.html) --
-  http://gramlich.net/projects/pcb_class/index.html
-* [Class Home Page .pdf](http://gramlich.net/projects/pcb_class/README.pdf) --
-  http://gramlich.net/projects/pcb_class/README.pdf
+The links are in "alphabetical" order:
+
+* [Class Home Page](http://gramlich.net/projects/pcb_class/index.html)
+  -- http://gramlich.net/projects/pcb\_class/index.html
+  * [Class Home Page .pdf](http://gramlich.net/projects/pcb\_class/README.pdf)
+  -- http://gramlich.net/projects/pcb\_class/README.pdf
+  * [Class LPC175X\_Tempate](http://github.com/waynegramlich/LPC175X_Template)
+     -- http://github.com/waynegramlich/LPC175X\_Template
+  * [Class Materials Git Repository](http://github.com/waynegramlich/pcb_class)
+     -- http://github.com/waynegramlich/pcb\_class
 * [FindChips.Com](http://findchips.com/)
-  http://findchips.com/
-* [Jameco.Com](http://jameco.com/) --
-  * http://jameco.com/
-* [KiCAD Home Page](http://www.kicad-pcb.org/) --
-  http://www.kicad-pcb.org/
-  * [KiCAD Documentation](http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation) --
-    http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation
-  * [KiCAD Download Page](http://www.kicad-pcb.org/display/KICAD/Download+Kicad) --
-    http://www.kicad-pcb.org/display/KICAD/Download+Kicad
-  * [KiCAD Tutorial](http://teholabs.com/knowledge/kicad.html) --
-    http://teholabs.com/knowledge/kicad.html
-* [Mouser.Com](http://mouser.com/) --
-  http://mouser.com/
-* [OctoPart.Com](http://octopart.com/) --
-  http://octopart.com/
-* [SeeedStudio Home Page](http://www.seeedstudio.com/) --
-  http://www.seeedstudio.com/
+  -- http://findchips.com/
+* [Jameco.Com](http://jameco.com/)
+  -- http://jameco.com/
+* [KiCAD Home Page](http://www.kicad-pcb.org/)
+  -- http://www.kicad-pcb.org/
+  * [KiCAD Documentation](http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation)
+    -- http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation
+  * [KiCAD Download Page](http://www.kicad-pcb.org/display/KICAD/Download+Kicad)
+    -- http://www.kicad-pcb.org/display/KICAD/Download+Kicad
+  * [KiCAD Tutorial](http://teholabs.com/knowledge/kicad.html)
+    -- http://teholabs.com/knowledge/kicad.html
+* [Mouser.Com](http://mouser.com/)
+  -- http://mouser.com/
+* [OctoPart.Com](http://octopart.com/)
+  -- http://octopart.com/
+* [SeeedStudio Home Page](http://www.seeedstudio.com/)
+  -- http://www.seeedstudio.com/
   * [SeeedStudio PCB Service](http://www.seeedstudio.com/depot/services-c-70_71/?ref=side)
     -- http://www.seeedstudio.com/depot/services-c-70_71/?ref=side
-* [Wayne's Nov2012 HBRC SMT Talk](http://www.youtube.com/watch?v=GeJ47UOX1hc) --
-  http://www.youtube.com/watch?v=GeJ47UOX1hc
-  * [SMT Talk Slides](http://gramlich.net/projects/hbrobotics/talks/smt/index.html) --
-    http://gramlich.net/projects/hbrobotics/talks/smt/index.html
+* [Wayne's Nov2012 HBRC SMT Talk](http://www.youtube.com/watch?v=GeJ47UOX1hc)
+  --  http://www.youtube.com/watch?v=GeJ47UOX1hc
+  * [SMT Talk Slides](http://gramlich.net/projects/hbrobotics/talks/smt/index.html)
+    -- http://gramlich.net/projects/hbrobotics/talks/smt/index.html
+* [Wikipedia SMT Page](https://en.wikipedia.org/wiki/Surface-mount_technology)
+  -- https://en.wikipedia.org/wiki/Surface-mount_technology
 
