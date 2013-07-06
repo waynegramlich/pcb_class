@@ -14,6 +14,9 @@ end of the class.
 
 ## Administration
 
+The class meets from 12 noon to 1:15pm in the Hacker Dojo
+"Maker Space" room on Saturdays.
+
 The class is broken into a "lecture" followed by question
 and answers (Q&A).  The goal will be to keep each "lecture"
 approximately 15 minutes long.  Each Q&A session will be
@@ -63,7 +66,7 @@ The basic class outline is:
 
 ## Lectures
 
-* Session 1.  Introduction to class and surface mount PCB's.
+* Session 1.  (15Jun2013) Introduction to class and surface mount PCB's.
   * [Lecture 1](http://youtu.be/nnQK5tNLf6A)
     -- http://youtu.be/nnQK5tNLf6A
     ; Introductory Material
@@ -81,7 +84,7 @@ The basic class outline is:
   [SMT for Roboticists](http://www.youtube.com/watch?v=GeJ47UOX1hc)
   HBRC (Home Brew Robotics Club) presentation.
 
-* Session 2. Finding chips and Initial Schematic Capture.
+* Session 2. (22Jun2013) Finding chips and Initial Schematic Capture.
   * [Video Playlist](http://www.youtube.com/playlist?list=PLKMsjYjvN5QFPR9ERFqPuN4P1v2LBj4ki)
     -- http://www.youtube.com/playlist?list=PLKMsjYjvN5QFPR9ERFqPuN4P1v2LBj4ki
   * [Lecture 1a](http://youtu.be/sjvGTyjGPV8)
@@ -114,6 +117,58 @@ The basic class outline is:
     >   [Octopart](http://octopart.com/) to search for the manufacturer part
     >   number to check for price and availability.
 
+* Session 3 (29Jun2013) KiCAD Libraries and Part/Footprint Mapping
+  * [Lecture 3a](http://youtu.be/x8_4-4cUuaE)
+    -- http://youtu.be/x8_4-4cUuaE
+    ; Using the KiCAD Library Editor
+  * [Discussion 3a](http://youtu.be/fR7kXhqNIbM)
+    -- http://youtu.be/fR7kXhqNIbM
+  * [Lecture 3b](http://youtu.be/VPfCxGzimtY)
+    -- http://youtu.be/VPfCxGzimtY
+    ; Design check, Net Generate, and Footprint Binding
+  * [Discussion 3b](http://youtu.be/H-L1BrQR0ak)
+    -- http://youtu.be/H-L1BrQR0ak
+  * Homwork: Do the following:
+    > * Read [KiCAD Library Notes](http://gramlich.net/projects/embedded_system_notes/kicad_notes.html)
+    > * Create a bit GitHub or BitBucket account.
+    > * Create a new repository named led64\_XXX where XXX are your initials.
+    > * Download the new repostitory to your machine
+        (i.e. "git clone https:...")
+    > * Copy and rename all the lpc175x\_template.* files over to your new
+    >   repository.
+    > * Rename all the lpc175x\_template.* files to led64\_XXX.* files where
+    >   XXX are your initials.
+    > * Upload the files to the repository
+	(i.e. "git add led64\_XXX.* ; git commit ; git push")
+    > * Build a schematic library for the ELD207.
+    > * Build a schematic library for the L78M05CDT.
+    > * Modify the schematic to have an 8 x 8 LED array.
+
+* Session 4 (6Jul2013) LPC-7351 Footprints and KiCAD PCB editor introduction.
+  * Video uploading will be delayed until Danny gets around to it.
+  * Homework
+    > * Generate a net list from the schematic editor.
+    > * Use git to make a clone of
+        [Wayne's PCB_Footprints](http://www.github.com/waynegramlich/pcb_footprints/) 
+    > * Read [PCB\_Footprints](http://gramlich.net/projects/pcb_footprints/index.html)
+    > * Download the IPC7351 Naming conventions.
+    > * Fire up *cvpcb*:
+    >   * In Library preferences Add ../../pcb\_footprints to the search path.
+    >   * Add LPC7351-Nominal.mod to libraries.
+    >   * Bind RESC1809H50N to your current limit resistors
+    >   * Bind LEDC1608X80N to your LED parts.
+    >   * Click on [File]=>[Save]
+    > * Fire up *pcbnew*:
+    >   * Bring up preferences and make sure that ../../pcb\_footprints is
+    >     in the search path and LPC7351-Nominal.mod is loaded.
+    >   * Import the net list (look for icon with wrench)
+    >   * Place all the components onto your board.
+    >   * Use trace mode to connect the compenents.
+    >   * Save the result.
+  * Homework for Wayne: Research KiCAD autorouting...
+
+* Session5 (13Jul2013) KiCAD Lab.  
+
 ## Links
 
 The links are in "alphabetical" order:
@@ -134,6 +189,8 @@ The links are in "alphabetical" order:
   -- http://www.kicad-pcb.org/
   * [KiCAD Documentation](http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation)
     -- http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation
+  * [KiCAD Library Notes](http://gramlich.net/projects/embedded_system_notes/kicad_notes.html)
+    -- http://gramlich.net/projects/embedded_system_notes/kicad_notes.html
   * [KiCAD Download Page](http://www.kicad-pcb.org/display/KICAD/Download+Kicad)
     -- http://www.kicad-pcb.org/display/KICAD/Download+Kicad
   * [KiCAD Tutorial](http://teholabs.com/knowledge/kicad.html)
