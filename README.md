@@ -145,7 +145,16 @@ The basic class outline is:
     > * Modify the schematic to have an 8 x 8 LED array.
 
 * Session 4 (6Jul2013) LPC-7351 Footprints and KiCAD PCB editor introduction.
-  * Video uploading will be delayed until Danny gets around to it.
+  * [Lecture 4a](http://youtu.be/QRM1CH8v9gw)
+    -- http://youtu.be/QRM1CH8v9gw
+    ; IPC-7351 Footprints
+  * [Discussion 4a](http://youtu.be/5AHJ8l1C44w)
+    -- http://youtu.be/5AHJ8l1C44w
+  * [Lecture 4b](http://youtu.be/oc74sKu4OFs)
+    -- http://youtu.be/oc74sKu4OFs
+    ; Introduction to *pcbnew* (the KiCAD PCB editor)
+  * [Discussion 4b](http://youtu.be/3MpBR7ONrCk)
+    -- http://youtu.be/3MpBR7ONrCk
   * Homework
     > * Generate a net list from the schematic editor.
     > * Use git to make a clone of
@@ -167,7 +176,7 @@ The basic class outline is:
     >   * Save the result.
   * Homework for Wayne: Research KiCAD autorouting...
 
-* Session5 (13Jul2013) KiCAD Lab.  
+* Session5 (13Jul2013) KiCAD Lab.
 
 ## Links
 
