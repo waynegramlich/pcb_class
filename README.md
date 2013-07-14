@@ -177,6 +177,29 @@ The basic class outline is:
   * Homework for Wayne: Research KiCAD autorouting...
 
 * Session5 (13Jul2013) KiCAD Lab.
+  * Biggest issue: Everybody was running different versions of KiCAD.
+    That caused some serious problems.  We are going to try to compile
+    a version of KiCAD from source and release it to run under virtual
+    box.  That way everybody will be running the same code regardless
+    of platform (Windows/MacOS/Linux.)
+  * Please re-download
+    [Wayne's PCB_Footprints](http://www.github.com/waynegramlich/pcb_footprints/),
+    the Reference and Value text was to small to be seen.
+  * Most people were having a reasonable time with generating schematics.
+  * Most people were struggling the schematic (i.e. .lib) and footprint
+    (i.e. .mod) search paths.  We'll just have to keep working on that.
+  * On my version of KiCAD [Edit] => [Reset Module Field Sizes] brought up
+    a pop-up window that lets you set the size of all Reference/Value
+    fields on your design.  It does so without moving them.
+  * In general AutoRouting does work with KiCAD, but it does not currently
+    work with LPC175x_Template/rev_a .  I'm going to try to see if I can
+    figure out why.
+  * You can reload a footprint from the library by using
+    [Mouse over footprint] => [Right click] => [Footprint xx on Front] =>
+    [Edit Parameters] .  This brings up a pop-up window.  Click on
+    [Change Module(s)] .  Click on the appropriate radio button and
+    click [OK].
+
 
 ## Links
 
