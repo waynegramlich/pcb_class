@@ -79,7 +79,8 @@ The basic class outline is:
     -- http://youtu.be/e9vZ7QtEE6A
   * [Danny's Session 1 Notes](https://docs.google.com/document/d/1DMb4D6pvlmSKxChsnne0z5LuC7Gld0QWWKAN4YXvKoI/edit?usp=sharing)
     from the class are available.
-  * Homework. Download KiCAD [http://www.kicad-pcb.org/display/KICAD/Download+Kicad]
+  * Homework. [Download KiCAD](http://www.kicad-pcb.org/display/KICAD/Download+Kicad)
+
   An alternative to the videos above is Wayne's
   [SMT for Roboticists](http://www.youtube.com/watch?v=GeJ47UOX1hc)
   HBRC (Home Brew Robotics Club) presentation.
@@ -123,7 +124,7 @@ The basic class outline is:
     ; Using the KiCAD Library Editor
   * [Discussion 3a](http://youtu.be/fR7kXhqNIbM)
     -- http://youtu.be/fR7kXhqNIbM
-  * [Lecture 3b](http://youtu.be/VPfCxGzimtY)
+  * [Lecture 3b](http://youtu.be/VPfCxGzimtY)p
     -- http://youtu.be/VPfCxGzimtY
     ; Design check, Net Generate, and Footprint Binding
   * [Discussion 3b](http://youtu.be/H-L1BrQR0ak)
